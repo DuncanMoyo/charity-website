@@ -2,8 +2,9 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 
-import { FaTypo3, FaTimes, FaBars } from "react-icons/fa";
+import { FaTimes, FaBars } from "react-icons/fa";
 import { Button } from "../Button/Button";
+import ALAKHE from '../../assets/images/ALAKHE.png'
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
@@ -31,7 +32,8 @@ const Navbar = () => {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo">
-            TRVL <FaTypo3 className="fa-typo" onClick={closeMobileMenu} />
+            ALAKHE <img src={ALAKHE} style={{width: '60px', height: '50px'}} onClick={closeMobileMenu} />
+          
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             {click ? (
@@ -48,20 +50,29 @@ const Navbar = () => {
             </li>
             <li className="nav-item">
               <Link
-                to="/services"
+                to="/cases"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                Services
+                Cases
               </Link>
             </li>
             <li className="nav-item">
               <Link
-                to="/products"
+                to="/about"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                Products
+                About
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                to="/contact-us"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
+                Contact
               </Link>
             </li>
             <li>
@@ -70,11 +81,11 @@ const Navbar = () => {
                 className="nav-links-mobile"
                 onClick={closeMobileMenu}
               >
-                Sign Up
+                DONATE
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle="btn--outline">SIGN UP</Button>}
+          {button && <Button buttonStyle="btn--outline">DONATE</Button>}
         </div>
       </nav>
     </>
