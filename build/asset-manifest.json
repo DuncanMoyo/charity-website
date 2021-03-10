@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/charity-website/static/css/main.f8c7440a.chunk.css",
+    "main.js": "/charity-website/static/js/main.d2b8d08a.chunk.js",
+    "main.js.map": "/charity-website/static/js/main.d2b8d08a.chunk.js.map",
+    "runtime-main.js": "/charity-website/static/js/runtime-main.b2b11e8d.js",
+    "runtime-main.js.map": "/charity-website/static/js/runtime-main.b2b11e8d.js.map",
+    "static/js/2.68285b4a.chunk.js": "/charity-website/static/js/2.68285b4a.chunk.js",
+    "static/js/2.68285b4a.chunk.js.map": "/charity-website/static/js/2.68285b4a.chunk.js.map",
+    "index.html": "/charity-website/index.html",
+    "static/css/main.f8c7440a.chunk.css.map": "/charity-website/static/css/main.f8c7440a.chunk.css.map",
+    "static/js/2.68285b4a.chunk.js.LICENSE.txt": "/charity-website/static/js/2.68285b4a.chunk.js.LICENSE.txt",
+    "static/media/ALAKHE.5fefa3c3.png": "/charity-website/static/media/ALAKHE.5fefa3c3.png",
+    "static/media/ImageFive.bc5d1a8b.jpg": "/charity-website/static/media/ImageFive.bc5d1a8b.jpg",
+    "static/media/App.css": "/charity-website/static/media/ImageThree.6f18be1f.jpg",
+    "static/media/ImageTwo.b3f69ecc.jpg": "/charity-website/static/media/ImageTwo.b3f69ecc.jpg",
+    "static/media/HeroSection.css": "/charity-website/static/media/home.bd28be93.jpg",
+    "static/media/readingGirl2.eec779f4.mp4": "/charity-website/static/media/readingGirl2.eec779f4.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b2b11e8d.js",
+    "static/js/2.68285b4a.chunk.js",
+    "static/css/main.f8c7440a.chunk.css",
+    "static/js/main.d2b8d08a.chunk.js"
+  ]
+}
