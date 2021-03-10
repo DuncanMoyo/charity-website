@@ -6,7 +6,7 @@
 }
 
 .home,
-.services,
+.about-us,
 .products,
 .sign-up {
   display: flex;
@@ -16,8 +16,7 @@
   font-size: 3rem;
 }
 
-.services {
-  background-image: url('./assets/images/ImageFive.jpg');
+.about-us {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
