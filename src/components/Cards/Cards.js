@@ -1,6 +1,6 @@
 import CardItems from "./CardItems";
 import "./Cards.css";
-import ImageOne from "../../assets/images/ImageOne.jpg";
+import Alakhe from "../../assets/images/ALAKHE.png";
 import ImageTwo from "../../assets/images/ImageTwo.jpg";
 import ImageThree from "../../assets/images/ImageThree.jpg";
 import ImageFive from "../../assets/images/ImageFive.jpg";
@@ -9,20 +9,20 @@ import ImageFour from "../../assets/images/ImageFour.jpg";
 const Cards = () => {
   return (
     <div className="cards">
-      <h1>Causes we are serving</h1>
+      <h1>What we've been up to...</h1>
       <div className="cards__container">
         <div className="cards__wrapper">
           <ul className="cards__items">
             <CardItems
-              src={ImageOne}
+              src={Alakhe}
               text="What led us to start this organisation"
               label="News"
               path="/services"
             />
             <CardItems
               src={ImageTwo}
-              text="Record Donations of Food Stuffs"
-              label="Food"
+              text="Despite the weird year, we moved forward"
+              label="Achievements"
               path="/services"
             />
           </ul>
@@ -35,14 +35,14 @@ const Cards = () => {
             />
             <CardItems
               src={ImageFour}
-              text="Despite the virus, we still moved forward"
-              label="Distribution"
+              text="Steady growth of Female Programmers"
+              label="Academia"
               path="/products"
             />
             <CardItems
               src={ImageFive}
-              text="More still needs to be done for the children"
-              label="Childcare"
+              text="Tech still out of reach for many"
+              label="Technology"
               path="/sign-up"
             />
           </ul>

@@ -32,7 +32,7 @@ const Navbar = () => {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo">
-            ALAKHE <img src={ALAKHE} style={{width: '60px', height: '50px'}} onClick={closeMobileMenu} />
+            ALAKHE <img src={ALAKHE} alt='alakheLogo' style={{width: '60px', height: '50px'}} onClick={closeMobileMenu} />
           
           </Link>
           <div className="menu-icon" onClick={handleClick}>
@@ -54,7 +54,7 @@ const Navbar = () => {
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                Cases
+                Causes
               </Link>
             </li>
             <li className="nav-item">

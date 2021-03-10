@@ -1,14 +1,14 @@
-import charity from "../../assets/videos/charity.mp4";
+import readingGirl2 from "../../assets/videos/readingGirl2.mp4";
 import { Button } from "../Button/Button";
 import './HeroSection.css'
 import '../../App.css'
 import {FaPlayCircle} from 'react-icons/fa'
 
-function HeroSection() {
+const HeroSection = () => {
   return (
     <div className="hero-container">
-      <video src={charity} autoPlay loop muted />
-      <h1>SUPPORT US</h1>
+      <video src={readingGirl2} autoPlay loop muted />
+      <h1>TRANSFORMING LIVES</h1>
       <p>What are you waiting for?</p>
       <div className="hero-btns">
         <Button
