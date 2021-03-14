@@ -17,11 +17,20 @@
 }
 
 .about-us {
+  background-image: url('./assets//images/aboutus.jpg');
+  height: 55vh;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
+}
+
+.about-image {
+  width: 50%;
+  height: 30%;
+  border-radius: 8px;
+  margin-left: 5vw;
 }
 
 .products {
