@@ -33,15 +33,6 @@
   margin-left: 5vw;
 }
 
-.products {
-  background-image: url('./assets/images/ImageFour.jpg');
-  background-position: center;
-  background-size: fill;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
-
 .sign-up {
   background-image: url('./assets/images/ImageThree.jpg');
   background-position: center;
@@ -50,3 +41,5 @@
   color: #fff;
   font-size: 100px;
 }
+
+/* contact form */
