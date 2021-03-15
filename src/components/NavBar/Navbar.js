@@ -31,7 +31,7 @@ const Navbar = () => {
     <>
       <nav className="navbar">
         <div className="navbar-container">
-          <Link to="/charity-website" className="navbar-logo">
+          <Link to="/" className="navbar-logo">
             ALAKHE <img src={ALAKHE} alt='alakheLogo' style={{width: '60px', height: '50px'}} onClick={closeMobileMenu} />
           
           </Link>
@@ -44,7 +44,7 @@ const Navbar = () => {
           </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
-              <Link to="/charity-website" className="nav-links" onClick={closeMobileMenu}>
+              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
                 Home
               </Link>
             </li>

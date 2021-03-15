@@ -16,7 +16,7 @@ function App() {
         <Navbar />
         <ToastContainer />
         <Switch>
-          <Route path="/charity-website" exact component={Home} />
+          <Route path="/" exact component={Home} />
           <Route path="/about" exact component={AboutUs} />
           <Route path="/contact" exact component={ContactUs} />
           <Route path="/sign-up" exact component={SignUp} />
