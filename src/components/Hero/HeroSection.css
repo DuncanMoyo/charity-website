@@ -73,6 +73,8 @@ video {
 @media screen and (max-width: 600px) {
   .hero-container{
     background: url('../../assets/images/home.jpg') center center/cover no-repeat;
-    
+  }
+  video {
+    display: none;
   }
 }

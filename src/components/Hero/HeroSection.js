@@ -7,7 +7,7 @@ import {FaPlayCircle} from 'react-icons/fa'
 const HeroSection = () => {
   return (
     <div className="hero-container">
-      <video src={readingGirl2} autoPlay loop muted />
+      <video src={readingGirl2} autoPlay loop muted  />
       <h1>TRANSFORMING LIVES</h1>
       <p>What are you waiting for?</p>
       <div className="hero-btns">
