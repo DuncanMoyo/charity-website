@@ -10,34 +10,40 @@ const aboutUsData = {
   aboutUsTitle: "Who We Are...",
   aboutUsContent: "Alakhe is an organization recently registered as an NPO after a group of young professionals saw it fit to expand their portfolio and formalise their process to other students after successfully mentoring young women through their respective degree portfolios at the University of Cape Town and at two high schools in Johannesburg.",
   aboutUsContentContinued: "The organization is an NPO run by 7 women based in Cape Town, Johannesburg and Port Elizabeth each with different expertise. We largely aim to support young women through their career and educational journeys both through educational mentorship and social assistance.",
-  theTeam: [
-    {
-      name: "Amahle",
-      aboutHer: "Spending time at national parks can be an exciting adventure, but this wasn't the type of excitement she was hoping to experience. As she contemplated the situation she found herself in, she knew she'd gotten herself in a little more than she bargained for. It wasn't often that she found herself in a tree staring down at a pack of wolves that were looking to make her their next meal.",
-      herPicture: womanOne
-      
-    },
-    {
-      name: "Kholwa",
-      aboutHer: "It wasn't quite yet time to panic. There was still time to salvage the situation. At least that is what she was telling himself. The reality was that it was time to panic and there wasn't time to salvage the situation, but he continued to delude himself into believing there was.",
-      herPicture: womanTwo
-    },
-    {
-      name: "Lerato",
-      aboutHer: "He picked up the burnt end of the branch and made a mark on the stone. Day 52 if the marks on the stone were accurate. He couldn't be sure. Day and nights had begun to blend together creating confusion, but he knew it was a long time. Much too long.",
-      herPicture: womanThree
-    },
-    {
-      name: "Oratile",
-      aboutHer: "What was beyond the bend in the stream was unknown. Both were curious, but only one was brave enough to want to explore. That was the problem. There was always one that let fear rule her life.",
-      herPicture: womanFour
-    },
-    {
-      name: "Elna",
-      aboutHer: "I've rented a car in Las Vegas and have reserved a hotel in Twentynine Palms which is just north of Joshua Tree. We'll drive from Las Vegas through Mojave National Preserve and possibly do a short hike on our way down. Then spend all day on Monday at Joshua Tree. We can decide the next morning if we want to do more in Joshua Tree or Mojave before we head back.",
-      herPicture: womanFive
-    }
-  ]
 }
 
-export default aboutUsData
+const womenDirectors = [
+  {
+    id: 1,
+    header: "Theresa Mwesigwa",
+    description: "Terry is someone who is passionate about seeing all people, especially young people, become the best version of themselves and realise their fullest potential. An SSP scholar from the class of 2010, she studied Medicine at the University of Cape Town as a Gallagher Foundation scholar . She went on to complete her internship at Leratong Hospital and community service at the National Institute for Communicable Diseases. Her passion for youth development led her to co-found WAME Projects, an NPO that runs career education and sexual & reproductive health workshops for high school students in under-resourced areas, while her love for public health has seen her serve as the National Chairperson of the Junior Doctors Association of South Africa. Her real calling in life, however, is playing the acoustic guitar… or at least pretending to. Terry currently works as a management consultant at Bain & Company South Africa.",
+    image: `${womanOne}`,
+  },
+  {
+    id: 2,
+    header: "Khanyisile Nyamathe",
+    description: "Born and raised in Johannesburg, South Africa, Khanyisile Nyamathe is a Grade 4 English, Social Science and Technology teacher. She obtained her BEd at Tuks (UP), and is in the process of completing her BEd Honors at the same institution. Khanyi is also the founder of an educational consulting initiative - ‘Classroom in a Caravan’. Through this, she equips high school students with resources which they use to plan for life after high school. These resources include subject selection workshops, advice about how to choose a study route, and study skills, to name a few. The aim of this initiative is to equip the under-resourced with information in an attempt to see more young South Africans in-the-know about their plans after high school, avoiding drastic growth of the youth unemployment and crime rates. Khanyi believes that through education and mentorship, we can make a meaningful difference and children’s lives can be forever changed.",
+    image: `${womanTwo}`,
+  },
+  {
+    id: 3,
+    header: "Clementine Van Der Walt",
+    description: "Clementine Van Der Walt is an educator/ tutor born in Johannesburg, South Africa. Clemmy holds a BA in Psychology Degree and a BA Honours Degree. She obtained her qualifications from the University of Johannesburg. She began her teaching career in the North of Johannesburg while teaching at Jacaranda college. She gained three years of teaching experience at Jacaranda College. She then began here journey with tutoring high school students and spent one year tutoring in Tembisa for an organization called Pursuit and one year tutoring matriculants at a non-governmental organization called the Johannesburg Society for the Blind. Currently Clementine freelances as a private tutor and still tutors for the Johannesburg Society for the Blind.",
+    descriptionContinued: "Clementine Van Der Walt is an educator/ tutor born in Johannesburg, South Africa. Clemmy holds a BA in Psychology Degree and a BA Honours Degree. She obtained her qualifications from the University of Johannesburg. She began her teaching career in the North of Johannesburg while teaching at Jacaranda college. She gained three years of teaching experience at Jacaranda College. She then began here journey with tutoring high school students and spent one year tutoring in Tembisa for an organization called Pursuit and one year tutoring matriculants at a non-governmental organization called the Johannesburg Society for the Blind. Currently Clementine freelances as a private tutor and still tutors for the Johannesburg Society for the Blind.",
+    image: `${womanThree}`,
+  },
+  {
+    id: 4,
+    header: "Segopotso Maleho ",
+    description: "Segopotso Maleho is an educator who was born and raised in Taung in the North West Province of South Africa. She is a mother of two amazing children who are her motivation and driving force, Oratile Khotso and Oarabile Thapelo. She obtained her Bachelor of Education (FET) qualification from the University of Johannesburg. She started her teaching journey at Glen Kids where she gained three years of teaching experience. She then moved to Rambrandt Park Primary School where she spent one year. She has been a permanent teacher at Glenvista High School for the past four years. Sego currently teaches grade 8 and 9 Economic Management Sciences and grade 10, 11 and 12 Tourism at Glenvista High School.",
+    image: `${womanFour}`,
+  },
+  {
+    id: 5,
+    header: "Samukelisiwe Nyamathe",
+    description: "Samke Nyamathe is a General Medical Practitioner by profession. Her  passion is seeing women and children realise their full health potential regardless of their socio-economic status. She believes that health care should be accessible and provided in a professional manner to all who access it. As a young doctor, Samke recognizes the importance of innovation in medicine. She obtained her medical qualification from the University of Cape Town and went on to do her Diploma in Public Health at UNISA and her Masters in Child Health at Wits University. She completed internship and community service at Far East Rand Hospital and South Rand Hospital respectively. She then worked as a private general practitioner doing physical and virtual consultations. She has worked for an NGO called Hope Cape Town which focused on paediatric HIV and neurodevelopment. She currently works within clinical research at the Desmond Tutu TB Centre and has assisted and worked in different areas of clinical research.",
+    image: `${womanFive}`,
+  },
+];
+
+export {womenDirectors, aboutUsData}
