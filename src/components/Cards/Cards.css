@@ -200,3 +200,17 @@ h1 {
     flex-direction: column;
   }
 }
+
+@media screen and (max-width: 600px) {
+ 
+  .computer {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 600px) {
+ 
+  .mobile {
+    display: none;
+  }
+}
