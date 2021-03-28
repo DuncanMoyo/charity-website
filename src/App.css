@@ -7,7 +7,7 @@
 
 .home,
 .about-us,
-.products,
+.projects,
 .sign-up {
   display: flex;
   height: 90vh;
@@ -17,7 +17,7 @@
 }
 
 .about-us {
-  background-image: url('./assets//images/aboutus.jpg');
+  background-image: url('./assets/images/aboutus.jpg');
   height: 55vh;
   background-position: center;
   background-size: cover;
@@ -35,6 +35,16 @@
 
 .sign-up {
   background-image: url('./assets/images/ImageThree.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.projects {
+  background-image: url('./assets//images/causes.jpg');
+  height: 55vh;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

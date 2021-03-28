@@ -8,6 +8,7 @@ import Donate from "./components/Pages/Donate";
 import Footer from "./components/Footer/Footer";
 import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer } from "react-toastify";
+import Projects from "./components/Pages/Projects";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/about" exact component={AboutUs} />
           <Route path="/contact" exact component={ContactUs} />
           <Route path="/donate" exact component={Donate} />
+          <Route path="/projects" exact component={Projects} />
         </Switch>
         <Footer />
       </Router>
