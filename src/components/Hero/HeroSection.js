@@ -2,7 +2,6 @@ import readingGirl2 from "../../assets/videos/readingGirl2.mp4";
 import { Button } from "../Button/Button";
 import './HeroSection.css'
 import '../../App.css'
-import {FaPlayCircle} from 'react-icons/fa'
 
 const HeroSection = () => {
   return (
@@ -16,14 +15,14 @@ const HeroSection = () => {
           buttonStyle="btn--outline"
           buttonSize="btn--large"
         >
-          GET STARTED
+          PROJECTS
         </Button>
         <Button
           className="btns"
           buttonStyle="btn--primary"
           buttonSize="btn--large"
         >
-          WATCH TRAILER <FaPlayCircle className='fa-play-circle' />
+          WHO ARE WE?
         </Button>
       </div>
     </div>

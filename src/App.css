@@ -8,7 +8,7 @@
 .home,
 .about-us,
 .projects,
-.sign-up {
+.donate {
   display: flex;
   height: 90vh;
   align-items: center;
@@ -33,7 +33,7 @@
   margin-left: 5vw;
 }
 
-.sign-up {
+.donate {
   background-image: url('./assets/images/ImageThree.jpg');
   background-position: center;
   background-size: cover;
