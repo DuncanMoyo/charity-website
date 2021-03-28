@@ -4,7 +4,7 @@ import "./Navbar.css";
 
 import { FaTimes, FaBars } from "react-icons/fa";
 import { Button } from "../Button/Button";
-import ALAKHE from '../../assets/images/ALAKHE.png'
+import alakhe from "../../assets/images/alakhe.png";
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
@@ -32,8 +32,13 @@ const Navbar = () => {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo">
-            ALAKHE <img src={ALAKHE} alt='alakheLogo' style={{width: '60px', height: '50px'}} onClick={closeMobileMenu} />
-          
+            <p onClick={closeMobileMenu}>ALAKHE</p>
+            <img
+              src={alakhe}
+              alt="alakheLogo"
+              style={{ width: "60px", height: "50px" }}
+              onClick={closeMobileMenu}
+            />
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             {click ? (
@@ -58,12 +63,8 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link
-                to="/about"
-                className="nav-links"
-                onClick={closeMobileMenu}
-              >
-                About 
+              <Link to="/about" className="nav-links" onClick={closeMobileMenu}>
+                About
               </Link>
             </li>
             <li className="nav-item">
@@ -90,6 +91,6 @@ const Navbar = () => {
       </nav>
     </>
   );
-}
+};
 
 export default Navbar;
